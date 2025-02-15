@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #008080; /* Teal Background */
+            color: black;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background: #FFA500; /* Orange Header */
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Bucket List Section */
+        .bucket-subsection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .bucket-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #FFA500; /* Orange Accent */
+        }
+
+        .bucket-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            opacity: 0.9;
+        }
+
+        .bucket-card img {
+            width: 100%;
+            border-radius: 8px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .bucket-card h3 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #008080; /* Teal Text */
+        }
+
+        .bucket-card p {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: #FFA500; /* Orange Footer */
+            padding: 15px;
+            font-size: 16px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .bucket-subsection {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        🌍 My Bucket List ✨
+    </header>
+
+    <div class="bucket-subsection">
+
+        <div class="bucket-card">
+            <img src="Travel Solo to a New Place ✈️.jpg" alt="Travel Solo">
+            <h3>Travel Solo to a New Place ✈️</h3>
+            <p>Explore a city or country you've never been to and experience independence.</p>
+        </div>
+
+        <div class="bucket-card">
+            <img src="Learn a Cool Skill 🎸.jpg" alt="Learn a Cool Skill">
+            <h3>Learn a Cool Skill 🎸</h3>
+            <p>Pick up something fun like playing the guitar, skateboarding, or cooking a signature dish.</p>
+        </div>
+
+        <div class="bucket-card">
+            <img src="Go on a Road Trip with Friends 🚗.jpg" alt="Road Trip">
+            <h3>Go on a Road Trip with Friends 🚗</h3>
+            <p>Hit the road with your best friends for an unforgettable adventure.</p>
+        </div>
+
+        <div class="bucket-card">
+            <img src="Start a Passion Project 🚀.jpg" alt="Passion Project">
+            <h3>Start a Passion Project 🚀</h3>
+            <p>Create a blog, YouTube channel, or build an app—something that excites you!</p>
+        </div>
+
+        <div class="bucket-card">
+            <img src="Attend a Live Concert or Festival 🎶.jpg" alt="Live Concert">
+            <h3>Attend a Live Concert or Festival 🎶</h3>
+            <p>See your favorite band or DJ live and enjoy the energy of the crowd.</p>
+        </div>
+
+        <div class="bucket-card">
+            <img src="Do Something Thrilling 🪂.jpg" alt="Thrilling Adventure">
+            <h3>Do Something Thrilling 🪂</h3>
+            <p>Try skydiving, bungee jumping, or scuba diving to push your limits.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        Designed by <strong>Sukesh Shetty</strong> | © 2025
+    </footer>
+
+</body>
+</html>
